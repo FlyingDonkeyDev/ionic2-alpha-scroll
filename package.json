@@ -1,28 +1,86 @@
 {
-  "name": "ionic2-alpha-scroll",
-  "version": "1.1.1",
-  "description": "Configurable Ionic 2 component for alphabetically indexed list with an alpha scroll bar.",
-  "main": "index.js",
-  "scripts": {
-    "prepublish": "ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rossmartin/ionic2-alpha-scroll.git"
-  },
-  "keywords": [
-    "ionic2",
-    "angular2",
-    "alpha-scroll",
-    "component"
+  "_args": [
+    [
+      {
+        "raw": "ionic2-alpha-scroll",
+        "scope": null,
+        "escapedName": "ionic2-alpha-scroll",
+        "name": "ionic2-alpha-scroll",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/flyingdonkey/Sites/demoagro-app"
+    ]
   ],
-  "author": "Ross Martin <rmartin311@gmail.com>",
-  "license": "MIT",
+  "_from": "ionic2-alpha-scroll@latest",
+  "_id": "ionic2-alpha-scroll@1.1.1",
+  "_inCache": true,
+  "_location": "/ionic2-alpha-scroll",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ionic2-alpha-scroll-1.1.1.tgz_1485893803706_0.5279369899071753"
+  },
+  "_npmUser": {
+    "name": "rossmartin",
+    "email": "rmartin311@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ionic2-alpha-scroll",
+    "scope": null,
+    "escapedName": "ionic2-alpha-scroll",
+    "name": "ionic2-alpha-scroll",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://npm.bede.es:4873/ionic2-alpha-scroll/-/ionic2-alpha-scroll-1.1.1.tgz",
+  "_shasum": "d4b3fc77d115c59db8c2f15e924881910bf0fb62",
+  "_shrinkwrap": null,
+  "_spec": "ionic2-alpha-scroll",
+  "_where": "/Users/flyingdonkey/Sites/demoagro-app",
+  "author": {
+    "name": "Ross Martin",
+    "email": "rmartin311@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/rossmartin/ionic2-alpha-scroll/issues"
   },
-  "homepage": "https://github.com/rossmartin/ionic2-alpha-scroll#readme",
+  "dependencies": {
+    "@types/hammerjs": "^2.0.33",
+    "@types/lodash": "4.14.38",
+    "lodash": "4.14.2",
+    "ng-dynamic": "1.1.0"
+  },
+  "description": "Configurable Ionic 2 component for alphabetically indexed list with an alpha scroll bar.",
+  "devDependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "copyfiles": "1.0.0",
+    "ionic-angular": "2.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "typescript": "^2.0.9",
+    "zone.js": "0.6.26"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d4b3fc77d115c59db8c2f15e924881910bf0fb62",
+    "tarball": "http://npm.bede.es:4873/ionic2-alpha-scroll/-/ionic2-alpha-scroll-1.1.1.tgz"
+  },
   "files": [
     "index.d.ts",
     "index.js",
@@ -46,26 +104,32 @@
     "util-module.js",
     "util-module.js.map"
   ],
-  "dependencies": {
-    "@types/hammerjs": "^2.0.33",
-    "@types/lodash": "4.14.38",
-    "lodash": "4.14.2",
-    "ng-dynamic": "1.1.0"
+  "gitHead": "dd7ff8df70d3f72cd514c23c2daac7607be8524f",
+  "homepage": "https://github.com/rossmartin/ionic2-alpha-scroll#readme",
+  "keywords": [
+    "ionic2",
+    "angular2",
+    "alpha-scroll",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "rossmartin",
+      "email": "rmartin311@gmail.com"
+    }
+  ],
+  "name": "ionic2-alpha-scroll",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossmartin/ionic2-alpha-scroll.git"
   },
-  "devDependencies": {
-    "ionic-angular": "2.0.0",
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/compiler-cli": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "rxjs": "5.0.0-beta.12",
-    "typescript": "^2.0.9",
-    "zone.js": "0.6.26",
-    "copyfiles": "1.0.0"
-  }
+  "scripts": {
+    "prepublish": "ngc && copyfiles -f src/*.js src/*.js.map src/*.d.ts src/*.metadata.json .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
 }
