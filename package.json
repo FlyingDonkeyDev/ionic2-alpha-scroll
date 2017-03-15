@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "ionic2-alpha-scroll",
+        "raw": "ionic2-alpha-scroll@^1.1.1",
         "scope": null,
         "escapedName": "ionic2-alpha-scroll",
         "name": "ionic2-alpha-scroll",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^1.1.1",
+        "spec": ">=1.1.1 <2.0.0",
+        "type": "range"
       },
-      "/Users/flyingdonkey/Sites/demoagro-app"
+      "/Users/flyingdonkey/Sites/ionic2test"
     ]
   ],
-  "_from": "ionic2-alpha-scroll@latest",
+  "_from": "ionic2-alpha-scroll@>=1.1.1 <2.0.0",
   "_id": "ionic2-alpha-scroll@1.1.1",
   "_inCache": true,
   "_location": "/ionic2-alpha-scroll",
@@ -29,23 +29,22 @@
   "_npmVersion": "3.10.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "ionic2-alpha-scroll",
+    "raw": "ionic2-alpha-scroll@^1.1.1",
     "scope": null,
     "escapedName": "ionic2-alpha-scroll",
     "name": "ionic2-alpha-scroll",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.1.1",
+    "spec": ">=1.1.1 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "http://npm.bede.es:4873/ionic2-alpha-scroll/-/ionic2-alpha-scroll-1.1.1.tgz",
   "_shasum": "d4b3fc77d115c59db8c2f15e924881910bf0fb62",
   "_shrinkwrap": null,
-  "_spec": "ionic2-alpha-scroll",
-  "_where": "/Users/flyingdonkey/Sites/demoagro-app",
+  "_spec": "ionic2-alpha-scroll@^1.1.1",
+  "_where": "/Users/flyingdonkey/Sites/ionic2test",
   "author": {
     "name": "Ross Martin",
     "email": "rmartin311@gmail.com"
@@ -79,7 +78,7 @@
   "directories": {},
   "dist": {
     "shasum": "d4b3fc77d115c59db8c2f15e924881910bf0fb62",
-    "tarball": "http://npm.bede.es:4873/ionic2-alpha-scroll/-/ionic2-alpha-scroll-1.1.1.tgz"
+    "tarball": "https://registry.npmjs.org/ionic2-alpha-scroll/-/ionic2-alpha-scroll-1.1.1.tgz"
   },
   "files": [
     "index.d.ts",

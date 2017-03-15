@@ -12,7 +12,6 @@ var ion_alpha_scroll_1 = require("./ion-alpha-scroll");
 var util_module_1 = require("./util-module");
 var ng_dynamic_1 = require("ng-dynamic");
 var ionic_image_loader_1 = require("ionic-image-loader");
-
 var IonAlphaScrollModule = (function () {
     function IonAlphaScrollModule() {
     }
@@ -25,7 +24,7 @@ IonAlphaScrollModule = __decorate([
             ionic_image_loader_1.IonicImageLoader,
             common_1.CommonModule,
             ng_dynamic_1.DynamicComponentModule.forRoot({
-                imports: [common_1.CommonModule, ionic_angular_1.IonicModule, util_module_1.UtilModule, ionic_image_loader_1.IonicImageLoader],
+                imports: [common_1.CommonModule, ionic_angular_1.IonicModule, ionic_image_loader_1.IonicImageLoader, util_module_1.UtilModule],
                 declarations: []
             })
         ],
